@@ -29,21 +29,3 @@ To run StrengthPedia on your local machine, follow these steps:
 3. Build and run the app on the iOS simulator or a connected device.
 
 Make sure you have Xcode and a compatible iOS simulator or device available.
-
-## Contributing
-
-StrengthPedia is an open-source project, and contributions are welcome! If you have any ideas, improvements, or bug fixes, feel free to submit a pull request.
-
-## License
-
-StrengthPedia is released under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code for personal and commercial purposes.
-
-## Acknowledgements
-
-Special thanks to all the contributors and open-source projects that provided inspiration and resources for building StrengthPedia.
-
-## Contact
-
-If you have any questions, suggestions, or feedback, please feel free to contact us at strengthpedia@example.com. We would love to hear from you!
-
-Happy exercising!
