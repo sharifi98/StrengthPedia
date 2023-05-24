@@ -1,0 +1,170 @@
+[
+    {
+        "id": 1,
+        "name": "Bench Press",
+        "description": "The bench press is an upper body strength training exercise that consists of pressing a weight upwards from a supine position. The exercise works the pectoralis major as well as supporting chest, arm, and shoulder muscles.",
+        "bodyPart": "chest",
+        "imageName": "benchpressbarbell"
+    },
+    {
+        "id": 2,
+        "name": "Barbell Curl",
+        "description": "The barbell curl is a classic biceps building exercise that targets both the short and long heads of the biceps, and the brachialis (a muscle that lies underneath the biceps) and brachioradialis (a muscle of the forearm).",
+        "bodyPart": "arms",
+        "imageName": "barbellcurl"
+    },
+    {
+        "id": 3,
+        "name": "Bent Over Row",
+        "description": "The bent over row is a weight training exercise that targets a variety of back muscles. Which ones are targeted varies on form. It is often used for both bodybuilding and powerlifting. It is a good exercise for increasing strength and size.",
+        "bodyPart": "back",
+        "imageName": "bentoverrow"
+    },
+    {
+        "id": 4,
+        "name": "Chin Ups",
+        "description": "Chin-ups are a form of bodyweight training that focuses on the muscles in your back, shoulders, and arms. It can build strength, increase muscle mass, and enhance grip strength.",
+        "bodyPart": "back",
+        "imageName": "chinups"
+    },
+    {
+        "id": 5,
+        "name": "Deadlift",
+        "description": "The deadlift is a weight training exercise in which a loaded barbell or bar is lifted off the ground to the level of the hips, then lowered to the ground. It is one of the three powerlifting exercises, along with the squat and bench press.",
+        "bodyPart": "legs",
+        "imageName": "deadlift"
+    },
+    {
+        "id": 6,
+        "name": "Dips",
+        "description": "The dip is an exercise used in strength training. Narrow, shoulder-width dips primarily train the triceps, with major synergists being the anterior deltoid, the pectoralis muscles, and the rhomboid muscles of the back.",
+        "bodyPart": "chest",
+        "imageName": "dips"
+    },
+    {
+        "id": 7,
+        "name": "Dumbbell Bench Press",
+        "description": "The dumbbell bench press is a bench press variation that can be done to boost overall strength, enhance muscle hypertrophy, and isolate areas of weakness in the bench press.",
+        "bodyPart": "chest",
+        "imageName": "dumbbellbenchpress"
+    },
+    {
+        "id": 8,
+        "name": "Dumbbell Curl",
+        "description": "A dumbbell curl is a weight training exercise that targets the bicep muscles. By curling the weight towards your chest, you work this muscle and can build strength and size over time.",
+        "bodyPart": "arms",
+        "imageName": "dumbbellcurl"
+    },
+    {
+        "id": 9,
+        "name": "Dumbbell Shoulder Press",
+        "description": "The dumbbell shoulder press is a movement similar to the strict press (barbell) that can build strength, muscle mass, and target weaknesses in the upper body.",
+        "bodyPart": "shoulders",
+        "imageName": "dumbbellshoulderpress"
+    },
+    {
+        "id": 10,
+        "name": "Front Squat",
+        "description": "The front squat is a compound lift that's a variant of the squat. You'll hold the weight in front of your body across your shoulders rather than resting a barbell on top of your back. This encourages maintaining a straight back and good posture.",
+        "bodyPart": "legs",
+        "imageName": "frontsquat"
+    },
+    {
+        "id": 11,
+        "name": "Hex Bar Deadlift",
+        "description": "The hex bar deadlift is a deadlift variation that uses a hex bar, which is also known as a trap bar. Instead of being in front of the body, the weight in a hex bar deadlift is distributed more evenly around your body.",
+        "bodyPart": "legs",
+        "imageName": "hexbardeadlift"
+    },
+    {
+        "id": 12,
+        "name": "Hip Thrust",
+        "description": "The hip thrust is a glute exercise designed to improve strength, speed, and power by teaching optimal hip extension. The glutes are the largest muscle in the body and they're also among the most important.",
+        "bodyPart": "glutes",
+        "imageName": "hipthrust"
+    },
+    {
+        "id": 13,
+        "name": "Horizontal Leg Press",
+        "description": "The horizontal leg press is a lower body exercise that targets the quads, hamstrings, and glutes. The unique positioning of the body in a horizontal leg press allows you to target these muscle groups in different ways.",
+        "bodyPart": "legs",
+        "imageName": "horizontallegpress"
+    },
+    {
+        "id": 14,
+        "name": "Incline Bench Press",
+        "description": "The incline bench press is a version of the traditional bench press in which the bench is positioned at about a 45-degree angle. The resulting inclined position targets your upper chest and the front of your shoulders more than the standard bench press.",
+        "bodyPart": "chest",
+        "imageName": "inclinebenchpress"
+    },
+    {
+        "id": 15,
+        "name": "Incline Dumbbell Bench Press",
+        "description": "The incline dumbbell bench press is a popular upper-body exercise targeting the upper pectoral muscles. While it can be a strength-focused movement, it is usually performed for moderate to high reps as part of the upper-body or chest-focused portion of a workout.",
+        "bodyPart": "chest",
+        "imageName": "inclinedumbbellbenchpress"
+    },
+    {
+        "id": 16,
+        "name": "Lat Pulldown",
+        "description": "The pulldown exercise is a strength training exercise designed to develop the latissimus dorsi muscle. It performs the functions of downward rotation and depression of the scapulae combined with adduction and extension of the shoulder joint.",
+        "bodyPart": "back",
+        "imageName": "latpulldown"
+    },
+    {
+        "id": 17,
+        "name": "Military Press",
+        "description": "The military press is a classic strength training exercise that is simple, safe, and effective. It is, at its most basic, an overhead press for building shoulder strength.",
+        "bodyPart": "shoulders",
+        "imageName": "militarypress"
+    },
+    {
+        "id": 18,
+        "name": "Power Clean",
+        "description": "The power clean is a compound power exercise that's a favourite among weightlifters, athletes, and fitness enthusiasts. It involves quickly pulling a barbell off the ground to hip level, and then, in one fluid motion, thrusting the barbell to shoulder level while dipping under the weight.",
+        "bodyPart": "full body",
+        "imageName": "powerclean"
+    },
+    {
+        "id": 19,
+        "name": "Pull-ups",
+        "description": "Pull-ups are an upper body strength exercise that targets the back, arms, and shoulders. The movement involves pulling oneself up on a bar until the chin is above the bar.",
+        "bodyPart": "back",
+        "imageName": "pullups"
+    },
+    {
+        "id": 20,
+        "name": "Push-ups",
+        "description": "Push-ups are a bodyweight exercise that works the triceps, pectoral muscles, and shoulders. They also provide a strength challenge for the core and lower body.",
+        "bodyPart": "chest",
+        "imageName": "pushups"
+    },
+    {
+        "id": 21,
+        "name": "Shoulder Press",
+        "description": "The shoulder press is an upper body strength training exercise that primarily targets the deltoids. With a barbell or dumbbells held at the shoulders, you press the weight overhead and then lower it back down.",
+        "bodyPart": "shoulders",
+        "imageName": "shoulderpress"
+    },
+    {
+        "id": 22,
+        "name": "Sled Leg Press",
+        "description": "The sled leg press is a lower body strength exercise that targets the quads, hamstrings, and glutes. It involves pushing a weight away from your body with your legs.",
+        "bodyPart": "legs",
+        "imageName": "sledlegpress"
+    },
+    {
+        "id": 23,
+        "name": "Squat",
+        "description": "The squat is a lower body exercise that primarily targets the muscles of the thighs, hips and buttocks, quadriceps, and hamstrings. It also strengthens the bones, ligaments and the tendons throughout the lower body.",
+        "bodyPart": "legs",
+        "imageName": "squat"
+    },
+    {
+        "id": 24,
+        "name": "Sumo Deadlift",
+        "description": "The sumo deadlift is a variation of the conventional deadlift where you adopt a wider stance and grip the barbell with your hands inside your thighs. It places a greater emphasis on the legs and hips and less on the lower back compared to the conventional deadlift.",
+        "bodyPart": "legs",
+        "imageName": "sumodeadlift"
+    }
+]
