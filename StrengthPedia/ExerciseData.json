@@ -4,7 +4,7 @@
         "name": "Bench Press",
         "description": "The bench press is an upper body strength training exercise that consists of pressing a weight upwards from a supine position. The exercise works the pectoralis major as well as supporting chest, arm, and shoulder muscles.",
         "bodyPart": "chest",
-        "imageName": "benchpressbarbell"
+        "imageName": "barbellbenchpress"
     },
     {
         "id": 2,

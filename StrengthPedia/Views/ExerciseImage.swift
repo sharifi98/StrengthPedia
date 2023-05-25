@@ -8,19 +8,21 @@
 import SwiftUI
 
 struct ExerciseImage: View {
+    var image: Image
+    
     var body: some View {
         VStack {
-            Image("benchpressbarbell")
+            image
                 .resizable()
-                    .scaledToFit()
-                    .frame(width: 300.0, height: 300.0)
-                    .padding()
+                .scaledToFit()
+                .frame(width: 300.0, height: 300.0)
+                .padding()
         }
     }
 }
 
 struct ExerciseImage_Previews: PreviewProvider {
     static var previews: some View {
-        ExerciseImage()
+        ExerciseImage(image: Image("barbellbenchpress"))
     }
 }

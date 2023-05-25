@@ -8,11 +8,20 @@
 import SwiftUI
 
 struct ExerciseList: View {
+    @EnvironmentObject var modelData: ModelData
     
     var body: some View {
-        List(exercises) { exercise in
-            ExerciseRow(exercise: exercise)
+        NavigationView {
+            List(exercises) { exercise in
+                NavigationLink {
+                    ExerciseDetail(exercise: exercise)
+                } label: {
+                    ExerciseRow(exercise: exercise)
+                }
+            }
+            .navigationTitle("Exercises")
         }
+        
     }
 }
 

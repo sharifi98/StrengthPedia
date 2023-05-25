@@ -17,6 +17,7 @@
 		03BAAB252A1E34C900F01560 /* ExerciseData.json in Resources */ = {isa = PBXBuildFile; fileRef = 03BAAB242A1E34C900F01560 /* ExerciseData.json */; };
 		03BAAB292A1E357500F01560 /* ExerciseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BAAB282A1E357500F01560 /* ExerciseRow.swift */; };
 		03BAAB2B2A1E3D4C00F01560 /* ExerciseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BAAB2A2A1E3D4C00F01560 /* ExerciseList.swift */; };
+		03BAAB2D2A1EADD100F01560 /* ExerciseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BAAB2C2A1EADD100F01560 /* ExerciseDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		03BAAB242A1E34C900F01560 /* ExerciseData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ExerciseData.json; sourceTree = "<group>"; };
 		03BAAB282A1E357500F01560 /* ExerciseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseRow.swift; sourceTree = "<group>"; };
 		03BAAB2A2A1E3D4C00F01560 /* ExerciseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseList.swift; sourceTree = "<group>"; };
+		03BAAB2C2A1EADD100F01560 /* ExerciseDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			children = (
 				03BAAB122A1E234200F01560 /* ContentView.swift */,
 				03BAAB1E2A1E26BB00F01560 /* ExerciseImage.swift */,
+				03BAAB2C2A1EADD100F01560 /* ExerciseDetail.swift */,
 				03BAAB282A1E357500F01560 /* ExerciseRow.swift */,
 				03BAAB2A2A1E3D4C00F01560 /* ExerciseList.swift */,
 			);
@@ -174,6 +177,7 @@
 			files = (
 				03BAAB132A1E234200F01560 /* ContentView.swift in Sources */,
 				03BAAB212A1E338F00F01560 /* Exercise.swift in Sources */,
+				03BAAB2D2A1EADD100F01560 /* ExerciseDetail.swift in Sources */,
 				03BAAB232A1E349600F01560 /* ModelData.swift in Sources */,
 				03BAAB2B2A1E3D4C00F01560 /* ExerciseList.swift in Sources */,
 				03BAAB112A1E234200F01560 /* StrengthPediaApp.swift in Sources */,
