@@ -13,6 +13,7 @@ struct Exercise: Hashable, Codable, Identifiable {
     var name: String
     var bodyPart: String
     var description: String
+    var isFavorite: Bool
     
     private var imageName: String
     var image: Image {

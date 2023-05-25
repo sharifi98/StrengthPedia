@@ -20,8 +20,12 @@ struct ExerciseDetail: View {
             ExerciseImage(image: exercise.image)
                 .offset(y: -130)
                 .padding(.bottom, -130)
-            Text(exercise.name)
-                .font(.title)
+            HStack {
+                Text(exercise.name)
+                    .font(.title)
+                FavoriteButton(isSet: $modelData.exercises[exerciseIndex].isFavorite)
+                
+            }
             HStack {
                 Text(exercise.bodyPart)
                     .font(.subheadline)
@@ -42,7 +46,7 @@ struct ExerciseDetail_Previews: PreviewProvider {
     static let modelData = ModelData()
     
     static var previews: some View {
-        ExerciseDetail(exercise: ModelData().exercises[0])
+        ExerciseDetail(exercise: modelData.exercises[0])
             .environmentObject(modelData)
 
     }

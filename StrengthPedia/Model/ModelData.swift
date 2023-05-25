@@ -11,7 +11,7 @@ final class ModelData: ObservableObject {
     @Published var exercises: [Exercise] = load("ExerciseData.json")
 }
 
-var exercises: [Exercise] = load("ExerciseData.json")
+// var exercises: [Exercise] = load("ExerciseData.json")
 
 func load<T: Decodable>(_ filename: String) -> T {
     

@@ -18,6 +18,7 @@
 		03BAAB292A1E357500F01560 /* ExerciseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BAAB282A1E357500F01560 /* ExerciseRow.swift */; };
 		03BAAB2B2A1E3D4C00F01560 /* ExerciseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BAAB2A2A1E3D4C00F01560 /* ExerciseList.swift */; };
 		03BAAB2D2A1EADD100F01560 /* ExerciseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BAAB2C2A1EADD100F01560 /* ExerciseDetail.swift */; };
+		03BAAB4F2A1F8E1200F01560 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BAAB4E2A1F8E1200F01560 /* FavoriteButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		03BAAB282A1E357500F01560 /* ExerciseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseRow.swift; sourceTree = "<group>"; };
 		03BAAB2A2A1E3D4C00F01560 /* ExerciseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseList.swift; sourceTree = "<group>"; };
 		03BAAB2C2A1EADD100F01560 /* ExerciseDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetail.swift; sourceTree = "<group>"; };
+		03BAAB4E2A1F8E1200F01560 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,10 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				03BAAB122A1E234200F01560 /* ContentView.swift */,
-				03BAAB1E2A1E26BB00F01560 /* ExerciseImage.swift */,
-				03BAAB2C2A1EADD100F01560 /* ExerciseDetail.swift */,
-				03BAAB282A1E357500F01560 /* ExerciseRow.swift */,
-				03BAAB2A2A1E3D4C00F01560 /* ExerciseList.swift */,
+				03BAAB512A1F905800F01560 /* Exercises */,
+				03BAAB502A1F904D00F01560 /* Helpers */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -102,6 +102,25 @@
 				03BAAB222A1E349600F01560 /* ModelData.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		03BAAB502A1F904D00F01560 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				03BAAB1E2A1E26BB00F01560 /* ExerciseImage.swift */,
+				03BAAB4E2A1F8E1200F01560 /* FavoriteButton.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		03BAAB512A1F905800F01560 /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				03BAAB2C2A1EADD100F01560 /* ExerciseDetail.swift */,
+				03BAAB282A1E357500F01560 /* ExerciseRow.swift */,
+				03BAAB2A2A1E3D4C00F01560 /* ExerciseList.swift */,
+			);
+			path = Exercises;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +197,7 @@
 				03BAAB132A1E234200F01560 /* ContentView.swift in Sources */,
 				03BAAB212A1E338F00F01560 /* Exercise.swift in Sources */,
 				03BAAB2D2A1EADD100F01560 /* ExerciseDetail.swift in Sources */,
+				03BAAB4F2A1F8E1200F01560 /* FavoriteButton.swift in Sources */,
 				03BAAB232A1E349600F01560 /* ModelData.swift in Sources */,
 				03BAAB2B2A1E3D4C00F01560 /* ExerciseList.swift in Sources */,
 				03BAAB112A1E234200F01560 /* StrengthPediaApp.swift in Sources */,

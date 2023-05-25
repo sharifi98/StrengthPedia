@@ -18,12 +18,19 @@ struct ExerciseRow: View {
                 .border(.black, width: 1)
             Text(exercise.name)
             Spacer()
+            
+            if exercise.isFavorite {
+                Image(systemName: "star.fill")
+                    .foregroundColor(.yellow)
+            }
         }
     }
 }
 
 struct ExerciseRow_Previews: PreviewProvider {
+    static var exercises = ModelData().exercises
+    
     static var previews: some View {
-        ExerciseRow(exercise: exercises[0])
+        ExerciseRow(exercise: ModelData().exercises[0])
     }
 }
