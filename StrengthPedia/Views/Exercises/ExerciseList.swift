@@ -20,7 +20,6 @@ struct ExerciseList: View {
     var body: some View {
         NavigationView {
             List {
-                
                 Toggle(isOn: $showFavoritesOnly) {
                     Text("Favorites Only")
                 }
@@ -33,7 +32,9 @@ struct ExerciseList: View {
                     }
                 }
             }
+            .listStyle(.grouped)
             .navigationTitle("Exercises")
+            
         }
         
     }

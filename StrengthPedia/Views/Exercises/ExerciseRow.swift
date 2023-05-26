@@ -9,6 +9,18 @@ import SwiftUI
 
 struct ExerciseRow: View {
     var exercise: Exercise
+    
+    let bodyPartColors: [String: Color] =
+      [ "Chest": .red,
+        "Biceps": .blue,
+        "Triceps": .green,
+        "Legs": .orange,
+        "Back": .pink,
+        "Glutes": .purple,
+        "Shoulders": .black,
+        "Full Body": .cyan
+      ]
+    
     var body: some View {
         HStack {
             // TODO add a category for what type of muscle group
@@ -16,13 +28,35 @@ struct ExerciseRow: View {
                 .resizable()
                 .frame(width: 60, height: 60)
                 .border(.black, width: 1)
-            Text(exercise.name)
+            VStack(alignment: .leading) {
+                Text(exercise.name)
+                if let color = bodyPartColors[exercise.bodyPart] {
+                    BodyPartText(part: exercise.bodyPart, color: color)
+                }
+            }
+            
             Spacer()
             
             if exercise.isFavorite {
                 Image(systemName: "star.fill")
                     .foregroundColor(.yellow)
             }
+            
+        }
+    }
+    
+    struct BodyPartText: View {
+        var part: String
+        var color: Color
+        
+        var body: some View {
+            Text(part)
+                .font(.caption)
+                .fontWeight(.black)
+                .padding(5)
+                .foregroundColor(.white)
+                .background(color)
+                .cornerRadius(15)
         }
     }
 }
