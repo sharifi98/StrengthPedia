@@ -9,10 +9,10 @@ import SwiftUI
 
 struct ExerciseDetail: View {
     var exercise: Exercise
-    @EnvironmentObject var modelData: ModelData
+    @EnvironmentObject var modelDataExercise: ModelDataExercise
     
     var exerciseIndex: Int {
-        modelData.exercises.firstIndex(where: { $0.id == exercise.id})!
+        modelDataExercise.exercises.firstIndex(where: { $0.id == exercise.id})!
     }
     
     var body: some View {
@@ -23,7 +23,7 @@ struct ExerciseDetail: View {
             HStack {
                 Text(exercise.name)
                     .font(.title)
-                FavoriteButton(isSet: $modelData.exercises[exerciseIndex].isFavorite)
+                FavoriteButton(isSet: $modelDataExercise.exercises[exerciseIndex].isFavorite)
                 
             }
             HStack {
@@ -43,11 +43,11 @@ struct ExerciseDetail: View {
 }
 
 struct ExerciseDetail_Previews: PreviewProvider {
-    static let modelData = ModelData()
+    static let modelDataExercise = ModelDataExercise()
     
     static var previews: some View {
-        ExerciseDetail(exercise: modelData.exercises[0])
-            .environmentObject(modelData)
+        ExerciseDetail(exercise: modelDataExercise.exercises[0])
+            .environmentObject(modelDataExercise)
 
     }
 }

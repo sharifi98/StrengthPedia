@@ -1,19 +1,19 @@
 //
-//  ModelData.swift
+//  ModelDataRoutine.swift
 //  StrengthPedia
 //
-//  Created by Hossein Sharifi on 24/05/2023.
+//  Created by Hossein Sharifi on 27/05/2023.
 //
 
 import Foundation
 
-final class ModelData: ObservableObject {
-    @Published var exercises: [Exercise] = load("ExerciseData.json")
+final class ModelDataRoutine: ObservableObject {
+    @Published var routines: [Routine] = loadRoutines("RoutineData.json")
 }
 
-// var exercises: [Exercise] = load("ExerciseData.json")
+var routines: [Routine] = loadRoutines("RoutineData.json")
 
-func load<T: Decodable>(_ filename: String) -> T {
+func loadRoutines<T: Decodable>(_ filename: String) -> T {
     
     let data: Data
     
@@ -51,3 +51,4 @@ func load<T: Decodable>(_ filename: String) -> T {
     }
     
 }
+

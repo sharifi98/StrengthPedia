@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct ExerciseList: View {
-    @EnvironmentObject var modelData: ModelData
+    @EnvironmentObject var modelDataExercise: ModelDataExercise
     @State private var showFavoritesOnly = false
     
     var filteredExercises: [Exercise] {
-        modelData.exercises.filter { exercise in
+        modelDataExercise.exercises.filter { exercise in
             (!showFavoritesOnly || exercise.isFavorite)
         }
     }
@@ -43,6 +43,6 @@ struct ExerciseList: View {
 struct ExerciseList_Previews: PreviewProvider {
     static var previews: some View {
         ExerciseList()
-            .environmentObject(ModelData())
+            .environmentObject(ModelDataExercise())
     }
 }

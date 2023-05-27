@@ -1,0 +1,50 @@
+[
+  {
+    "id": 101,
+    "name": "Push",
+    "description": "The Push routine focuses on exercises that involve pushing movements. It primarily targets the muscles of the chest, shoulders, and triceps. Common exercises include bench press, shoulder press, and tricep dips.",
+    "bodyPart": "Chest, Shoulders, Triceps",
+    "isFavorite": false,
+    "imageName": "pushroutine"
+  },
+  {
+    "id": 102,
+    "name": "Pull",
+    "description": "The Pull routine consists of exercises that require pulling movements. This routine works the back muscles, biceps, and forearms. Typical exercises are barbell rows, pull-ups, and bicep curls.",
+    "bodyPart": "Back, Biceps, Forearms",
+    "isFavorite": false,
+    "imageName": "pullroutine"
+  },
+  {
+    "id": 103,
+    "name": "Legs",
+    "description": "The Legs routine includes exercises that target the lower body, specifically the quadriceps, hamstrings, glutes, and calves. Squats, deadlifts, and lunges are some of the exercises usually performed in this routine.",
+    "bodyPart": "Quadriceps, Hamstrings, Glutes, Calves",
+    "isFavorite": false,
+    "imageName": "legroutine"
+  },
+  {
+    "id": 104,
+    "name": "Full Body",
+    "description": "The Full Body routine involves exercises that engage multiple muscle groups across the entire body. Exercises such as deadlifts, squats, bench press, and power clean are often included in this routine.",
+    "bodyPart": "Full Body",
+    "isFavorite": false,
+    "imageName": "fullbodyroutine"
+  },
+  {
+    "id": 105,
+    "name": "Upper Body",
+    "description": "The Upper Body routine targets the muscles of the chest, back, shoulders, and arms. Bench press, pull-ups, shoulder press, and bicep curls are common exercises in this routine.",
+    "bodyPart": "Chest, Back, Shoulders, Arms",
+    "isFavorite": false,
+    "imageName": "upperbodyroutine"
+  },
+  {
+    "id": 106,
+    "name": "Lower Body",
+    "description": "The Lower Body routine focuses on exercises that target the lower body, specifically the quadriceps, hamstrings, glutes, and calves. Exercises like squats, lunges, and deadlifts are typically included.",
+    "bodyPart": "Quadriceps, Hamstrings, Glutes, Calves",
+    "isFavorite": false,
+    "imageName": "lowerbodyroutine"
+  }
+]

@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct StrengthPediaApp: App {
-    @StateObject private var modelData = ModelData()
+    @StateObject private var modelData = ModelDataExercise()
     
     var body: some Scene {
         WindowGroup {

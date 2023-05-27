@@ -62,9 +62,9 @@ struct ExerciseRow: View {
 }
 
 struct ExerciseRow_Previews: PreviewProvider {
-    static var exercises = ModelData().exercises
+    static var exercises = ModelDataExercise().exercises
     
     static var previews: some View {
-        ExerciseRow(exercise: ModelData().exercises[0])
+        ExerciseRow(exercise: ModelDataExercise().exercises[0])
     }
 }

@@ -9,13 +9,23 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ExerciseList()
+        TabView {
+            ExerciseList()
+                .tabItem {
+                    Label("Exercise", systemImage: "note.text")
+                }
+            RoutineList()
+                .tabItem {
+                    Label("Routines", systemImage: "house")
+                }
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-            .environmentObject(ModelData())
+            .environmentObject(ModelDataExercise())
+            .environmentObject(ModelDataRoutine())
     }
 }

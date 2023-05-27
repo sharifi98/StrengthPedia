@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0396B0552A21753A008E6CAC /* Routine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0396B0542A21753A008E6CAC /* Routine.swift */; };
+		0396B0572A21760E008E6CAC /* RoutineData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0396B0562A21760E008E6CAC /* RoutineData.json */; };
+		0396B0592A217629008E6CAC /* ModelDataRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0396B0582A217629008E6CAC /* ModelDataRoutine.swift */; };
+		0396B05B2A21772A008E6CAC /* RoutineList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0396B05A2A21772A008E6CAC /* RoutineList.swift */; };
+		0396B05F2A217CED008E6CAC /* RoutineDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0396B05E2A217CED008E6CAC /* RoutineDetail.swift */; };
+		0396B0612A2181D4008E6CAC /* RoutineExerciseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0396B0602A2181D4008E6CAC /* RoutineExerciseList.swift */; };
 		03BAAB112A1E234200F01560 /* StrengthPediaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BAAB102A1E234200F01560 /* StrengthPediaApp.swift */; };
 		03BAAB132A1E234200F01560 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BAAB122A1E234200F01560 /* ContentView.swift */; };
 		03BAAB152A1E234400F01560 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03BAAB142A1E234400F01560 /* Assets.xcassets */; };
 		03BAAB182A1E234400F01560 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03BAAB172A1E234400F01560 /* Preview Assets.xcassets */; };
 		03BAAB1F2A1E26BB00F01560 /* ExerciseImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BAAB1E2A1E26BB00F01560 /* ExerciseImage.swift */; };
 		03BAAB212A1E338F00F01560 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BAAB202A1E338F00F01560 /* Exercise.swift */; };
-		03BAAB232A1E349600F01560 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BAAB222A1E349600F01560 /* ModelData.swift */; };
+		03BAAB232A1E349600F01560 /* ModelDataExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BAAB222A1E349600F01560 /* ModelDataExercise.swift */; };
 		03BAAB252A1E34C900F01560 /* ExerciseData.json in Resources */ = {isa = PBXBuildFile; fileRef = 03BAAB242A1E34C900F01560 /* ExerciseData.json */; };
 		03BAAB292A1E357500F01560 /* ExerciseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BAAB282A1E357500F01560 /* ExerciseRow.swift */; };
 		03BAAB2B2A1E3D4C00F01560 /* ExerciseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BAAB2A2A1E3D4C00F01560 /* ExerciseList.swift */; };
@@ -22,6 +28,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0396B0542A21753A008E6CAC /* Routine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routine.swift; sourceTree = "<group>"; };
+		0396B0562A21760E008E6CAC /* RoutineData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RoutineData.json; sourceTree = "<group>"; };
+		0396B0582A217629008E6CAC /* ModelDataRoutine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDataRoutine.swift; sourceTree = "<group>"; };
+		0396B05A2A21772A008E6CAC /* RoutineList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineList.swift; sourceTree = "<group>"; };
+		0396B05E2A217CED008E6CAC /* RoutineDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineDetail.swift; sourceTree = "<group>"; };
+		0396B0602A2181D4008E6CAC /* RoutineExerciseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineExerciseList.swift; sourceTree = "<group>"; };
 		03BAAB0D2A1E234200F01560 /* StrengthPedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrengthPedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03BAAB102A1E234200F01560 /* StrengthPediaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrengthPediaApp.swift; sourceTree = "<group>"; };
 		03BAAB122A1E234200F01560 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -29,7 +41,7 @@
 		03BAAB172A1E234400F01560 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		03BAAB1E2A1E26BB00F01560 /* ExerciseImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseImage.swift; sourceTree = "<group>"; };
 		03BAAB202A1E338F00F01560 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
-		03BAAB222A1E349600F01560 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		03BAAB222A1E349600F01560 /* ModelDataExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDataExercise.swift; sourceTree = "<group>"; };
 		03BAAB242A1E34C900F01560 /* ExerciseData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ExerciseData.json; sourceTree = "<group>"; };
 		03BAAB282A1E357500F01560 /* ExerciseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseRow.swift; sourceTree = "<group>"; };
 		03BAAB2A2A1E3D4C00F01560 /* ExerciseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseList.swift; sourceTree = "<group>"; };
@@ -48,6 +60,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0396B0522A2174BF008E6CAC /* Routines */ = {
+			isa = PBXGroup;
+			children = (
+				0396B05A2A21772A008E6CAC /* RoutineList.swift */,
+				0396B05E2A217CED008E6CAC /* RoutineDetail.swift */,
+				0396B0602A2181D4008E6CAC /* RoutineExerciseList.swift */,
+			);
+			path = Routines;
+			sourceTree = "<group>";
+		};
+		0396B0532A21751A008E6CAC /* ModelRoutine */ = {
+			isa = PBXGroup;
+			children = (
+				0396B0542A21753A008E6CAC /* Routine.swift */,
+				0396B0582A217629008E6CAC /* ModelDataRoutine.swift */,
+			);
+			path = ModelRoutine;
+			sourceTree = "<group>";
+		};
 		03BAAB042A1E234200F01560 = {
 			isa = PBXGroup;
 			children = (
@@ -69,8 +100,10 @@
 			children = (
 				03BAAB102A1E234200F01560 /* StrengthPediaApp.swift */,
 				03BAAB262A1E354B00F01560 /* Views */,
-				03BAAB272A1E356000F01560 /* Model */,
+				0396B0532A21751A008E6CAC /* ModelRoutine */,
+				03BAAB272A1E356000F01560 /* ModelExercise */,
 				03BAAB242A1E34C900F01560 /* ExerciseData.json */,
+				0396B0562A21760E008E6CAC /* RoutineData.json */,
 				03BAAB142A1E234400F01560 /* Assets.xcassets */,
 				03BAAB162A1E234400F01560 /* Preview Content */,
 			);
@@ -89,19 +122,20 @@
 			isa = PBXGroup;
 			children = (
 				03BAAB122A1E234200F01560 /* ContentView.swift */,
+				0396B0522A2174BF008E6CAC /* Routines */,
 				03BAAB512A1F905800F01560 /* Exercises */,
 				03BAAB502A1F904D00F01560 /* Helpers */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		03BAAB272A1E356000F01560 /* Model */ = {
+		03BAAB272A1E356000F01560 /* ModelExercise */ = {
 			isa = PBXGroup;
 			children = (
 				03BAAB202A1E338F00F01560 /* Exercise.swift */,
-				03BAAB222A1E349600F01560 /* ModelData.swift */,
+				03BAAB222A1E349600F01560 /* ModelDataExercise.swift */,
 			);
-			path = Model;
+			path = ModelExercise;
 			sourceTree = "<group>";
 		};
 		03BAAB502A1F904D00F01560 /* Helpers */ = {
@@ -181,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0396B0572A21760E008E6CAC /* RoutineData.json in Resources */,
 				03BAAB252A1E34C900F01560 /* ExerciseData.json in Resources */,
 				03BAAB182A1E234400F01560 /* Preview Assets.xcassets in Resources */,
 				03BAAB152A1E234400F01560 /* Assets.xcassets in Resources */,
@@ -194,11 +229,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0396B0592A217629008E6CAC /* ModelDataRoutine.swift in Sources */,
+				0396B0552A21753A008E6CAC /* Routine.swift in Sources */,
+				0396B05B2A21772A008E6CAC /* RoutineList.swift in Sources */,
 				03BAAB132A1E234200F01560 /* ContentView.swift in Sources */,
+				0396B0612A2181D4008E6CAC /* RoutineExerciseList.swift in Sources */,
 				03BAAB212A1E338F00F01560 /* Exercise.swift in Sources */,
+				0396B05F2A217CED008E6CAC /* RoutineDetail.swift in Sources */,
 				03BAAB2D2A1EADD100F01560 /* ExerciseDetail.swift in Sources */,
 				03BAAB4F2A1F8E1200F01560 /* FavoriteButton.swift in Sources */,
-				03BAAB232A1E349600F01560 /* ModelData.swift in Sources */,
+				03BAAB232A1E349600F01560 /* ModelDataExercise.swift in Sources */,
 				03BAAB2B2A1E3D4C00F01560 /* ExerciseList.swift in Sources */,
 				03BAAB112A1E234200F01560 /* StrengthPediaApp.swift in Sources */,
 				03BAAB292A1E357500F01560 /* ExerciseRow.swift in Sources */,
