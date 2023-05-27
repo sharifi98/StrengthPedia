@@ -19,11 +19,13 @@ struct RoutineDetail: View {
                 
                 Spacer()
                 
+                                
                 Text(routine.description)
-            
-                
                 //ExerciseRow(exercise: exercise)
                 startWorkoutButton()
+                Spacer()
+                Spacer()
+                Spacer()
             }
         }
     }

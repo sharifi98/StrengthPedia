@@ -9,12 +9,14 @@ import SwiftUI
 
 @main
 struct StrengthPediaApp: App {
-    @StateObject private var modelData = ModelDataExercise()
+    @StateObject private var modelDataExercise = ModelDataExercise()
+    @StateObject private var modelDataRoutine = ModelDataRoutine()
     
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environmentObject(modelData)
+                .environmentObject(modelDataExercise)
+                .environmentObject(modelDataRoutine)
         }
     }
 }
