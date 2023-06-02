@@ -12,15 +12,17 @@ struct RoutineDetail: View {
     var routine: Routine
     var body: some View {
         NavigationView {
+            
+            
             VStack(alignment: .center) {
-
                 RoutineExerciseList(routine: routine)
                     .environmentObject(ModelDataExercise())
                 
                 Spacer()
-                
-                                
+
+
                 Text(routine.description)
+                    .padding(20)
                 //ExerciseRow(exercise: exercise)
                 startWorkoutButton()
                 Spacer()
@@ -41,7 +43,7 @@ struct startWorkoutButton: View {
         .fontWeight(.black)
         .foregroundColor(.white)
         .background(Color.blue)
-        .cornerRadius(15)
+        .cornerRadius(30)
     }
 }
 
