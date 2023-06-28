@@ -10,13 +10,19 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
+            
+            LogView()
+                .tabItem {
+                    Label("Log", systemImage: "clock.arrow.circlepath")
+                }
+            
             ExerciseList()
                 .tabItem {
-                    Label("Exercise", systemImage: "note.text")
+                    Label("Exercises", systemImage: "note.text")
                 }
             RoutineList()
                 .tabItem {
-                    Label("Routines", systemImage: "house")
+                    Label("Routines", systemImage: "slider.horizontal.3")
                 }
         }
     }

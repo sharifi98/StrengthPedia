@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0310FB0F2A4CB0C300D0C91D /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0310FB0E2A4CB0C300D0C91D /* LogView.swift */; };
 		0396B0552A21753A008E6CAC /* Routine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0396B0542A21753A008E6CAC /* Routine.swift */; };
 		0396B0572A21760E008E6CAC /* RoutineData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0396B0562A21760E008E6CAC /* RoutineData.json */; };
 		0396B0592A217629008E6CAC /* ModelDataRoutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0396B0582A217629008E6CAC /* ModelDataRoutine.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0310FB0E2A4CB0C300D0C91D /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
 		0396B0542A21753A008E6CAC /* Routine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routine.swift; sourceTree = "<group>"; };
 		0396B0562A21760E008E6CAC /* RoutineData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RoutineData.json; sourceTree = "<group>"; };
 		0396B0582A217629008E6CAC /* ModelDataRoutine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDataRoutine.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				03BAAB122A1E234200F01560 /* ContentView.swift */,
+				0310FB0E2A4CB0C300D0C91D /* LogView.swift */,
 				0396B0522A2174BF008E6CAC /* Routines */,
 				03BAAB512A1F905800F01560 /* Exercises */,
 				03BAAB502A1F904D00F01560 /* Helpers */,
@@ -141,7 +144,6 @@
 		03BAAB502A1F904D00F01560 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				03BAAB1E2A1E26BB00F01560 /* ExerciseImage.swift */,
 				03BAAB4E2A1F8E1200F01560 /* FavoriteButton.swift */,
 			);
 			path = Helpers;
@@ -150,9 +152,10 @@
 		03BAAB512A1F905800F01560 /* Exercises */ = {
 			isa = PBXGroup;
 			children = (
-				03BAAB2C2A1EADD100F01560 /* ExerciseDetail.swift */,
-				03BAAB282A1E357500F01560 /* ExerciseRow.swift */,
 				03BAAB2A2A1E3D4C00F01560 /* ExerciseList.swift */,
+				03BAAB282A1E357500F01560 /* ExerciseRow.swift */,
+				03BAAB2C2A1EADD100F01560 /* ExerciseDetail.swift */,
+				03BAAB1E2A1E26BB00F01560 /* ExerciseImage.swift */,
 			);
 			path = Exercises;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				03BAAB2B2A1E3D4C00F01560 /* ExerciseList.swift in Sources */,
 				03BAAB112A1E234200F01560 /* StrengthPediaApp.swift in Sources */,
 				03BAAB292A1E357500F01560 /* ExerciseRow.swift in Sources */,
+				0310FB0F2A4CB0C300D0C91D /* LogView.swift in Sources */,
 				03BAAB1F2A1E26BB00F01560 /* ExerciseImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

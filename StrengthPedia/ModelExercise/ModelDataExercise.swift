@@ -7,6 +7,7 @@
 
 import Foundation
 
+// important
 final class ModelDataExercise: ObservableObject {
     @Published var exercises: [Exercise] = load("ExerciseData.json")
 }
