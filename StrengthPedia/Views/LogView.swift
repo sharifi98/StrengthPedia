@@ -21,12 +21,14 @@ struct LogView: View {
                         SessionCard()
                             .frame(maxWidth: .infinity)
                             .padding(20)
-                            .background(Color.gray)
+                            .background(Color.white)
                             .cornerRadius(20)
                     }
                     .buttonStyle(PlainButtonStyle())  // Ensures that the button doesn't modify the look of the SessionCard
+                    .padding(EdgeInsets(top: 5, leading: 20, bottom: 5, trailing: 20)) // Apply additional padding around the rectangle
                 }
             }
+            .background(Color("customgray"))
             .navigationTitle("Log")
             .toolbar {
                 // Places the button on the trailing side of the Navigation Bar.
@@ -63,6 +65,7 @@ struct GrayRectangle: View {
             .foregroundColor(Color("customgray"))
             .clipShape(RoundedRectangle(cornerRadius: 10))
             .frame(width: 50, height: 50)
+
     }
 }
 
@@ -72,7 +75,6 @@ struct SessionCard: View {
             ZStack {
                 GrayRectangle()
                 VStack {
-                    
                     Text("Mon")
                         .foregroundColor(.gray)
                         .bold()
@@ -84,16 +86,23 @@ struct SessionCard: View {
                 }
             }
             
-            VStack(alignment: .leading) {
+            VStack(alignment: .leading, spacing: 4) {
                 Text("Pull")
                     .font(.title)
+                    .fontWeight(.semibold)
+                    .lineLimit(1) // Limit the title to a single line
                 Text("5x Barbell row")
+                    .lineLimit(nil) // Allow the other lines to wrap to multiple lines
                 Text("3x Machine pullover")
-                Text("3x Cable back deltoid")
+                    .lineLimit(nil)
                 Text("4x cable curls ")
+                    .lineLimit(nil)
+                Text("4x cable curls ")
+                    .lineLimit(nil)
+                
             }
             Spacer()
         }
-        
     }
 }
+
